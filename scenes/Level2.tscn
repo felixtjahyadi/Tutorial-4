@@ -4,9 +4,9 @@
 [ext_resource path="res://assets/kenney_platformerpack/PNG/Tiles/Ice.tres" type="TileSet" id=2]
 [ext_resource path="res://assets/kenney_platformerpack/PNG/Items/flagRed1.png" type="Texture" id=3]
 [ext_resource path="res://scenes/Area.tscn" type="PackedScene" id=4]
-[ext_resource path="res://scenes/Spawner2.gd" type="Script" id=5]
+[ext_resource path="res://scripts/Spawner2.gd" type="Script" id=5]
 [ext_resource path="res://scenes/Slime.tscn" type="PackedScene" id=6]
-[ext_resource path="res://scenes/Spawner.gd" type="Script" id=7]
+[ext_resource path="res://scripts/Spawner.gd" type="Script" id=7]
 [ext_resource path="res://scenes/ResetSlime.tscn" type="PackedScene" id=8]
 
 [node name="Level2" type="Node2D"]
@@ -55,6 +55,6 @@ obstacle = ExtResource( 6 )
 
 [node name="Spawner5" type="Node2D" parent="."]
 light_mask = 4
-position = Vector2( 1118, -314 )
+position = Vector2( 932, -144 )
 script = ExtResource( 7 )
 obstacle = ExtResource( 8 )
